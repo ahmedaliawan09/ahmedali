@@ -1,0 +1,183 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: "Forum";
+}
+.dark{
+    background-color: #03001C;
+    color: white;
+}
+.light{
+    background-color: white;
+    color:black;
+}
+.homee{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.tareef{
+    align-items: center;
+}
+
+
+
+
+.animated-text{
+    font-size: 61px;
+    font-weight: 600;
+    min-width: 280px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.animated-text span{
+     position: relative;
+}
+
+.animated-text span::before{
+    content: "Youtuber";
+    color: beige;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%; 
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+    
+}
+
+@keyframes cursor {
+   
+}
+
+@keyframes words {
+    0%,30%{
+        content: "Talks About  ";
+        color: black;
+    }
+    31%,50%{
+        content: "C++";
+        color: green;
+    }
+    51%,65%{
+        content: "Python";
+        color: orange;
+    }
+    66%,80%{
+        content: "Html,Css,Js";
+        color: blue;
+    }
+    81%,100%{
+        content: "Data-bases";
+        color: purple;
+    }
+    
+}
+
+ 
+
+
+.nav-item{ 
+    padding-right: 12%;
+}
+.nav-item :hover{
+    background-color: blueviolet;
+    border-radius: 6%;
+
+}
+ 
+.card{
+    background-color: #2C3333; 
+    border-color: #2C3333;
+}
+.homee{
+        margin-top: 3%;
+        display: flex;
+    }
+.imag {
+    margin-left: 8%;
+}
+.des {
+    margin-right: 3%;
+}
+.display-2:hover{
+     color: blue;
+}
+
+
+@media (max-width: 768px) {
+    .homee {
+        flex-direction: column; /* Change flex direction to column */
+        align-items: center;
+        
+    }
+     body{
+      
+     }
+    .imag {
+        margin-left: 25%;
+        margin-top: 3%;
+        margin-bottom: 3%; /* Add bottom margin */
+        align-items: center;
+    }
+
+    .des {
+        margin-right: 0;
+        text-align: center;
+    }
+    .about {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        align-items: center; /* Center content horizontally */
+      }
+    
+      .dess, .imaag {
+        width: 100%; /* Ensure both sections take full width */
+        text-align: center; /* Center align text and image */
+        margin-bottom: 20px; /* Add some space between sections */
+      }
+    
+       
+    
+      .imaag img {
+        width: 80%; /* Adjust image width for smaller screens */
+      }
+    
+   
+}
+
+.about{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin-top: 13%;
+    margin-bottom: 8%;
+    margin-left: 9%;
+}
+.dess {
+     width:40%;
+}
+.dess h1{
+    margin-top: 14%;
+    
+}
+#aboutmee{
+    width: 60%;
+}
+
+
+.des button{
+    padding: 2%;
+    width: 33%;
+    font-size: x-large;
+}
+.des button img{
+    padding: 2%;
+    margin-left:7%;
+}
