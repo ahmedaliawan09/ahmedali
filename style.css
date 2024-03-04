@@ -78,8 +78,7 @@ body{
 .nav-item{ 
     padding-right: 12%;
 }
-.nav-item :hover{
-    background-color: blueviolet;
+.nav-item :hover{ 
     border-radius: 6%;
 
 }
@@ -115,6 +114,12 @@ body{
         margin-right: 0;
         text-align: center;
     }  
+    .nav-item{
+        padding: 4%;
+    }
+    .navi{
+        padding:2%;
+    }
 }
 @media (max-width:768px){
      .miii p{
