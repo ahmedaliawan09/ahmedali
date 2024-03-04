@@ -1,12 +1,14 @@
 let iconn= document.getElementById("iconn");
 let nav=document.getElementById("12");
 let po=document.getElementById("po");
+let bacc=document.getElementById("bacc");
  iconn.onclick=function(){
     document.body.classList.toggle("dark");
     if(document.body.classList.contains("dark")){
         iconn.src="moon.png"
         nav.style.backgroundColor ='turquoise';
         po.style.color = 'black';
+        bacc.style.backgroundColor = 'turquoise';
     }
     else {
         iconn.src="brightness.png"
