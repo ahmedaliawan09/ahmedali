@@ -117,8 +117,7 @@ body{
     }  
 }
 @media (max-width:768px){
-    .sticky-top{
-        padding: 0.2%;
+    .sticky-top{ 
     }
 }
 
