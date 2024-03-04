@@ -6,8 +6,8 @@ body{
     font-family: "Poppins";
 }
 .dark{
-    background-color: #03001C;
-    color: white;
+    background-color: black;
+    color: turquoise;
 }
 .light{
     background-color: white;
@@ -30,7 +30,7 @@ body{
     font-weight: 600;
     min-width: 280px;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 14%;
 }
 
 .animated-text span{
@@ -81,9 +81,6 @@ body{
     
 }
 
- 
-
-
 .nav-item{ 
     padding-right: 12%;
 }
@@ -91,11 +88,6 @@ body{
     background-color: blueviolet;
     border-radius: 6%;
 
-}
- 
-.card{
-    background-color: #2C3333; 
-    border-color: #2C3333;
 }
 .homee{
         margin-top: 3%;
@@ -162,6 +154,9 @@ body{
     .immm img{
         width: 200%;
     }
+    .animated-text{
+        margin-top:39%;
+    }
 
 }
 
@@ -172,6 +167,55 @@ body{
     }
    
 }
+ 
+    @media (max-width: 768px) {
+        .all {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .cpp,
+        .htm,
+        .csss,
+        .git {
+            width: 33%; /* Adjust the width as needed */
+            margin: 8%; /* Adjust the margin as needed */
+        }
+
+        .cpp,
+        .htm,
+        .csss,
+        .git h3 { 
+           margin-right: 5%;
+        }
+    }   
+
+
+    @media (max-width: 768px) {
+        .alll {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .sql,
+        .jss,
+        .reac,
+        .pyt {
+            width: 33%; /* Adjust the width as needed */
+            margin: 8%; /* Adjust the margin as needed */
+        }
+
+        .sql,
+        .jss,
+        .reac,
+        .pyt h3 { 
+            margin-top: 8%;
+           margin-right: 5%;
+        }
+    } 
+
+
+
 .sticky-top {
     position: fixed;
     top: 0;
@@ -225,3 +269,43 @@ body{
     padding: 2%;
     margin-left:7%;
 }
+
+.ttl{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.ttl h1{
+    font-size: xxx-large;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    margin-left: 11%;
+}
+.all h3{
+    margin-top:6%;
+     margin-left: 11%;
+}
+.alll{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    margin-left: 11%;
+}
+.alll h3{
+    margin-top:6%;
+    margin-left: 11%;
+}
+.pro{
+    margin-top: 10%;
+    text-align: center;
+}
+ .card{
+    transition: 0.4s ease;
+    margin: 4%;
+ }
+ .card img:hover{
+    transition: 0.8s ease;
+       transform: scale(1.1);
+ }
