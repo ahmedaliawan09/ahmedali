@@ -402,6 +402,11 @@ body{
     font-size: large;
     text-decoration: underline;
   }
+  @media (max-width:768px){
+    .foot{
+        font-size: small;
+    }
+  }
 .bac{
     background-color: rgb(89, 89, 155);
     color: beige; 
