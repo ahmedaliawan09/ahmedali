@@ -69,6 +69,47 @@ window.onscroll = function() {stickyNavbar()};
 
 
  
+function validateForm() {
+    // Get input field values
+    var name = document.getElementById('name').value.trim();
+    var number = document.getElementById('number').value.trim();
+    var email = document.getElementById('email').value.trim();
+    var message = document.getElementById('message').value.trim();
 
+    // Validate name
+    if (name === '') {
+        alert('Please enter your name');
+        return false;
+    }
+
+    // Validate number
+    if (number === '') {
+        alert('Please enter your number');
+        return false;
+    }
+    if (!/^\d{11}$/.test(number)) {
+        alert('Please enter a valid 11-digit number');
+        return false;
+    }
+
+    // Validate email
+    if (email === '') {
+        alert('Please enter your email');
+        return false;
+    }
+    if (!/^\S+@\S+\.\S+$/.test(email)) {
+        alert('Please enter a valid email address');
+        return false;
+    }
+
+    // Validate message
+    if (message === '') {
+        alert('Please enter your message');
+        return false;
+    }
+
+    // Form is valid
+    return true;
+}
 
 
