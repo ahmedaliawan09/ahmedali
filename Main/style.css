@@ -309,3 +309,55 @@ body{
     transition: 0.8s ease;
        transform: scale(1.1);
  }
+
+ .con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+ 
+}
+
+.fo {
+    width: 25%; /* Set a fixed width */
+    padding: 2%; /* Adjust padding as needed */
+    background-color: white; /* Set background color to white */
+    border-radius: 20px; /* Add border radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.fo input[type="text"],
+.fo textarea {
+    width: calc(100% - 40px); /* Adjust width with padding in mind */
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px; /* Add border radius for squared appearance */
+    border: 1px solid #ccc; /* Add border for clearer definition */
+}
+
+.fo button {
+    width: 100%; /* Set button width to fill the container */
+    padding: 20px;
+    margin-top: 20px; /* Adjust margin as needed */
+    border-radius: 10px; /* Add border radius for squared appearance */
+    border: none; /* Remove border for cleaner look */
+    background-color: #007bff; /* Set background color */
+    color: white; /* Set text color */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.fo button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+.fo input[type="text"],
+.fo textarea {
+    width: calc(100% - 40px); /* Adjust width with padding in mind */
+    box-sizing: border-box;
+    padding: 25px; /* Increase padding for larger input fields */
+    margin: 20px 0;
+    font-size: 16px; /* Increase font size for better visibility */
+    border-radius: 10px; /* Add border radius for squared appearance */
+    border: 1px solid #ccc; /* Add border for clearer definition */
+}
