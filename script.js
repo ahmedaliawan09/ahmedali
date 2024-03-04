@@ -107,9 +107,23 @@ function validateForm() {
         alert('Please enter your message');
         return false;
     }
+    
+    alert('Thanks for visiting! I\'ll reply soon.');
+        
+    // Reset the form after submission
+    document.getElementById("myForm").reset();
+    return true;
+
+
+    // Prevent form submission
+     
 
     // Form is valid
-    return true;
+    
+
+
+    
 }
+
 
 

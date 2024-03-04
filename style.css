@@ -54,7 +54,7 @@ body{
 @keyframes words {
     0%,30%{
         content: "Talks About  ";
-        color: black;
+        color:chartreuse ;
     }
     31%,50%{
         content: "C++";
@@ -66,7 +66,7 @@ body{
     }
     66%,80%{
         content: "Html,Css,Js";
-        color: blue;
+        color: rgb(109, 109, 202);
     }
     81%,100%{
         content: "Data-bases";
