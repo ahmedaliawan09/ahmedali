@@ -18,13 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.tareef{
-    align-items: center;
-}
-
-
-
-
+ 
 .animated-text{
     font-size: 61px;
     font-weight: 600;
@@ -122,8 +116,14 @@ body{
         text-align: center;
     }  
 }
+@media (max-width:768px){
+    .sticky-top{
+        padding: 10px;
+    }
+}
 
 @media (max-width: 768px) {
+     
     .ab{
         flex-direction: column;
         align-items: center;
@@ -148,6 +148,7 @@ body{
     #mi{
     
     }
+    
     .immm{
         margin-top: 9%;
         margin-left: -18%;
