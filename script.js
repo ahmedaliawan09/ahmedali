@@ -127,5 +127,15 @@ function validateForm() {
     
 }
 
+function downloadCV() {
+    // Create a dummy anchor element
+    var link = document.createElement('a');
+    link.href = '.ahmedali\CV.pdf'; // Specify the path to your CV file
+    link.download = 'your_cv.pdf'; // Specify the filename   for the downloaded file
+
+    // Trigger a click event on the anchor element
+    link.click();
+}
+
 
 
