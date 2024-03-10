@@ -20,7 +20,9 @@ body{
     justify-content: space-between;
 
 }
- 
+ #btt{
+  width: 40%;
+ }
 .animated-text{
     font-size: 61px;
     font-weight: 600;
@@ -72,10 +74,10 @@ body{
         color: purple;
     }
     
-}
+} 
 
 .nav-item{ 
-    padding-right: 12%;
+    padding-right: 6%;
 }
 .nav-item :hover{ 
     border-radius: 6%;
@@ -414,3 +416,27 @@ body{
     overflow: hidden;
 }
 
+@media (max-width: 768px) {
+    #po {
+      text-align: right; /* Align the "Portfolio" title and icon to the right */
+      margin-right: 20px;
+     /* Add some space between the "Portfolio" title and the right edge of the screen */
+    }
+  }
+  @media (max-width:768px){
+    .navi{
+        padding: -62%;
+    }  
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        position: absolute;
+        top: 10px; /* Adjust this value to your preference */
+        left: 10px; /* Adjust this value to your preference */
+        z-index: 9999; /* Make sure it's on top */
+    }
+    .nav-item{
+        padding: 0%;
+    }
+}
