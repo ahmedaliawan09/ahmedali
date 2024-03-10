@@ -118,22 +118,30 @@ function validateForm() {
     document.getElementById("myForm").reset();
     return true;
 
-
-    // Prevent form submission
-     
-
-    // Form is valid
-    
-
-
-    
+    //
 }
 
 function downloadCV() {
-    // Create a dummy anchor element
+    // Replace 'cv.pdf' with the path to your CV PDF file
+    var fileUrl = '.CV.pdf';
+    
+    // Create a temporary anchor element
     var link = document.createElement('a');
-    link.href = '.ahmedali\CV.pdf'; // Specify the path to your CV file
-    link.download = 'your_cv.pdf'; // Specify the filename   for the downloaded file
+    
+    // Set the href attribute of the anchor to the file URL
+    link.href = fileUrl;
+    
+    // Set the download attribute to the file name (optional)
+    link.download = 'CV.pdf';
+    
+    // Append the anchor to the document body
+    document.body.appendChild(link);
+    
+    // Trigger a click event on the anchor
+    link.click();
+    
+    // Remove the anchor from the document body
+    document.body.removeChild(link);
 }
 
  
