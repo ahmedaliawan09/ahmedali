@@ -136,17 +136,6 @@ function downloadCV() {
     link.download = 'your_cv.pdf'; // Specify the filename   for the downloaded file
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    var navbarToggler = document.querySelector('.navbar-toggler');
-    var navbarCollapse = document.querySelector('.navbar-collapse');
-
-    navbarToggler.addEventListener('click', function () {
-        if (navbarCollapse.classList.contains('show')) {
-            document.body.classList.remove('disable-scroll');
-        } else {
-            document.body.classList.add('disable-scroll');
-        }
-    });
-});
+ 
 
  
