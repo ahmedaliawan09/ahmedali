@@ -96,7 +96,11 @@ body{
 .display-2:hover{
      color: blue;
 }
-
+.nav-item:hover{
+    color: blue;
+    font-weight: bolder;
+    transition: 0.2s ease;
+}
 
 @media (max-width: 768px) {
     .homee {
@@ -183,7 +187,7 @@ body{
 @media (max-width:768px){
     .nav-item{
         margin-left: 23%;
-    
+        padding: 0%;    
     }
    
 }
@@ -436,7 +440,28 @@ body{
         left: 10px; /* Adjust this value to your preference */
         z-index: 9999; /* Make sure it's on top */
     }
-    .nav-item{
-        padding: 0%;
-    }
+    
 }
+
+@media (max-width: 1000px) {
+    .navbar-collapse {
+      position: fixed;
+      top: 56px; /* Adjust this value based on your navbar height */
+      bottom: 0;
+      left: 10px;
+      z-index: 999;
+      display: none;
+      overflow-y: auto;
+      background-color: #ffffff;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      width: 100%;
+    }
+    #po {
+        text-align: right; /* Align the "Portfolio" title and icon to the right */
+        margin-right: 20px;
+       /* Add some space between the "Portfolio" title and the right edge of the screen */
+      }
+    .navbar-collapse.show {
+      display: block;
+    }
+  }
