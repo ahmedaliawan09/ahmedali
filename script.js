@@ -112,7 +112,7 @@ function validateForm() {
         return false;
     }
     
-    alert('Thanks for visiting! I\'ll reply soon.');
+    alert('"Working on Email Api". For now you can contact me on my instagram. "Thank You" for visiting.');
         
     // Reset the form after submission
     document.getElementById("myForm").reset();
