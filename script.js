@@ -121,28 +121,7 @@ function validateForm() {
     //
 }
 
-function downloadCV() {
-    // Replace 'cv.pdf' with the path to your CV PDF file
-    var fileUrl = '.CV.pdf';
-    
-    // Create a temporary anchor element
-    var link = document.createElement('a');
-    
-    // Set the href attribute of the anchor to the file URL
-    link.href = fileUrl;
-    
-    // Set the download attribute to the file name (optional)
-    link.download = 'CV.pdf';
-    
-    // Append the anchor to the document body
-    document.body.appendChild(link);
-    
-    // Trigger a click event on the anchor
-    link.click();
-    
-    // Remove the anchor from the document body
-    document.body.removeChild(link);
-}
+
 
  
 
