@@ -21,7 +21,8 @@ body{
 
 }
  #btt{
-  width: 40%;
+  width: 30%;
+  height:90px;
  }
 .animated-text{
     font-size: 61px;
