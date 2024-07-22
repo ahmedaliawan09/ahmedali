@@ -182,15 +182,17 @@
 
       <section id="contact">
         <div class="con">
+          
           <h1>>>CONTACT</h1>
         </div>
-        <form action="" onsubmit="return validateForm()">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="1a14492f-de13-4f8b-a1b1-c196a19f536a">
+
         <div class="for">
           <div class="fo">
-            <input id="name" type="text" placeholder="name" required>
-            <input id="number" type="text" placeholder="number" required>
-            <input id="email" type="text" placeholder="email" required>
-            <input id="message" type="text" placeholder="message" required>
+            <input id="name" name="name" type="text" placeholder="name" required>
+            <input id="email" name="email" type="text" placeholder="email" required>
+            <input id="message" name="message"type="text" placeholder="message" required>
             <button type="submit">Send</button>
           </div>
         </div>
